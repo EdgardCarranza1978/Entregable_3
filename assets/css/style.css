@@ -3,6 +3,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 /* Generales */
 /*  Declaracion de variables  */
+/*  Uso de Extend  */
+.enlace, .texto-boton {
+  color: rgb(255, 255, 255);
+  font-family: verdana;
+  font-size: 0.8em;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,7 +25,7 @@
 
 .titulo {
   font-family: "Roboto";
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 700;
   color: rgb(244, 140, 3);
   padding: 10px;
@@ -59,7 +66,7 @@
   padding: 5px 5px;
   background-color: rgb(121, 118, 118);
   color: rgb(255, 255, 255);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 /* Noticias */
@@ -73,6 +80,11 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+}
+
+.texto-boton {
+  font-style: italic;
+  font-weight: 700;
 }
 
 /* Universidades */
@@ -159,8 +171,9 @@
 
 /* Contacto */
 .form-contacto {
-  background-color: rgb(214, 214, 214);
+  background-color: orange;
   padding: 30px;
+  color: gray;
   border-radius: 10px;
 }
 
@@ -170,7 +183,7 @@
     font-size: 1.8em;
   }
   .titulo {
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
   .parrafo {
     font-size: 1em;
