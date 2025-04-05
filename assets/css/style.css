@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* Importar Fuentes */
 @import url("https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-/* Generales */
 /*  Declaracion de variables  */
 /*  Uso de Extend  */
 .enlace, .texto-boton {
@@ -10,6 +9,7 @@
   font-size: 0.8em;
 }
 
+/* Generales */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -71,7 +71,7 @@
 
 /* Noticias */
 .noticias {
-  background-color: rgb(240, 240, 240);
+  background-image: radial-gradient(circle, orange, white);
   padding: 20px;
 }
 
